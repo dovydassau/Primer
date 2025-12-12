@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Poem About Coding</title>
+</head>
+<body>
+    <h1>Lines of Code</h1>
+    <p>
+        In brackets and tags, we build and create,<br>
+        HTML structures, both simple and great.<br>
+        With divs and spans, we craft the design,<br>
+        Semantic markup, each element in line.<br>
+        <br>
+        Classes and IDs to style and control,<br>
+        Functions and logic to achieve our goal.<br>
+        From algorithms to pixel-perfect views,<br>
+        Coding's the art where logic and beauty fuse.<br>
+        <br>
+        Through debugging nights and problems we solve,<br>
+        Our passion for code will forever evolve.
+    </p>
+</body>
+</html>

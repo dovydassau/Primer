@@ -4,75 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="../src/style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <header>
         <h1>Contact Us</h1>
         <p>Get in touch with our totally real team!</p>
     </header>
-    
+
     <main>
-        <span>Span1</span>
-        <span>Span2</span>
-        <form>
-            <div>
-                <label for="name_id">Name:</label>
-                <input type="text" name="name" id="name_id">
-            </div>
-            <br>
+        <section>
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
 
-            <div>
-                <label for="lastName_id">Last name:</label>
-                <input type="text" name="lastName" id="lastName_id">
-            </div>
-            <br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" required>
 
-            <label for="message_id">Message:</label>
-            <textarea name="message" id="message_id"></textarea>
-            <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
 
-            <div>   
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+
                 <button type="submit">Send</button>
-            </div>
+            </form>
+        </section>
 
-            <!-- <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
-            <button type="submit">Send Message</button>
-        </form> -->
-        </form>
-
-        <form>
-            <fieldset>
-                <legend>Employee Info</legend>
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="firstName">
-                <br>
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastName">
-            </fieldset>
-        </form>
-        
-        <h2>Other Ways to Reach Us</h2>
-        <p>Phone: 1-800-FAKE-NUM</p>
-        <p>Address: 123 Made Up Street, Nowhere, USA 00000</p>
+        <section>
+            <h2>Other Ways to Reach Us</h2>
+            <p>Phone: 1-800-FAKE-NUM</p>
+            <p>Address: 123 Made Up Street, Nowhere, USA 00000</p>
+        </section>
     </main>
-    
+
     <footer>
         <p>&copy; 2025 Definitely Real Company. All rights reserved.</p>
     </footer>

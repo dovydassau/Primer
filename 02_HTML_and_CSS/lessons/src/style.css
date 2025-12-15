@@ -12,3 +12,81 @@ input, textarea {
     max-width: 400px; /* Optional: limits width */
     box-sizing: border-box;
 }
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2px;
+    padding: 1px;
+    background-color: #06bb2a;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Additional styling for better appearance */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+header, main, footer {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #760a0a;
+}
+
+.main-container div {
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
